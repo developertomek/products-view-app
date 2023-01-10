@@ -1,0 +1,30 @@
+.filter {
+    background-color: var(--text-light);
+    border: 1px solid var(--info-light);
+    border-radius: var(--radius);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.filter button {
+    height: 100%;
+    margin: 0;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+}
+
+@media(max-width: 550px) {
+    .filter{
+        flex-direction: column;
+        align-items: center;
+    }
+}

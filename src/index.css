@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #15b769;
+    --info: #cecece;
+    --info-light: #efefef;
+    --info-dark: #a7a7a7;
+    --text-light: #fff;
+    --text-dark: #282828;
+    --warn: #fbad1b;
+    --radius: 8px;
+}
+
+html, body {
+    color: var(--text-dark);
+    font-family: Source Sans Pro,Arial;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+}

@@ -1,0 +1,56 @@
+.thumbnail {
+    margin: auto;
+    text-align: center;
+}
+
+.img {
+    max-width: 200px;
+    max-height: 150px;
+}
+
+.description {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.info {
+    color: var(--info);
+}
+
+.details {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.details header {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    color: var(--primary);
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.stock {
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.rate span {
+    color: var(--warn);
+    margin-right: 0.3rem;
+    margin-top: 0;
+}

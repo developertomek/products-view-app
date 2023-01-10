@@ -1,0 +1,99 @@
+.select {
+    margin-bottom: 1rem;
+    position: relative;
+    width: 220px;
+}
+
+.value {
+    align-items: center;
+    border: 1px solid var(--info-light);
+    border-radius: var(--radius);
+    display: flex;
+    height: 100%;
+    padding: 1.1rem 2.1rem;
+    transition: background-color 0.3s;
+}
+
+.value.show {
+    background-color: var(--info-light);
+}
+
+.value i {
+    color: var(--info-dark);
+    font-size: 1.3rem;
+    margin-left: auto;
+    transition: transform 0.3s;
+}
+
+.value i.show {
+    transform: rotate(180deg);
+}
+
+.value:hover {
+    cursor: pointer;
+}
+
+.options {
+    box-sizing:border-box;
+    background-color: white;
+    border: 1px solid var(--info-light);
+    border-radius: var(--radius);
+    margin-top: 5px;
+    overflow-y: scroll;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    max-height: 0;
+    transition: max-height 0.3s, visibility 0.2s;
+    visibility: hidden;
+}
+
+.options.show {
+    max-height: 255px;
+    visibility: visible;
+}
+
+.option {
+    align-items: center;
+    display: flex;
+    font-size: 1.1rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.option:hover {
+    background-color: var(--info-light);
+    cursor: pointer;
+}
+
+input {
+    margin-left: 0;
+    margin-right: 0.5rem;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.clear {
+    background-color: var(--info);
+    background-color: var(--info-light);
+    border: none;
+    bottom: 0;
+    left: 0;
+    padding: 1rem 1rem 1rem 1rem;
+    position: sticky;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.clear:hover {
+    cursor: pointer;
+    background-color: var(--info-dark);
+    background-color: var(--info);
+}
